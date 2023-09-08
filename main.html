@@ -7,34 +7,32 @@
     <!-- Write your code here -->
     <!-- Bootstrap Bundle with Popper -->
 
-<div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
-  <div class="carousel-inner carousel" id="myCarousel" >
-    <div class="carousel-item  first-slide">
-      <img src="https://images.unsplash.com/photo-1591116446368-2078ad1c0fea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item second-slide">
-      <img src="https://images.unsplash.com/photo-1693845886349-54208259fe49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item active third-slide">
-      <img src="https://images.unsplash.com/photo-1693683197581-f362aa5348df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
-    </div>
-	  <div class="carousel-item fourth-slide ">
-      <img src="https://images.unsplash.com/photo-1693710197978-54ec9d024370?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
-    </div>
-	  <div class="carousel-item fifth-slide">
-      <img src="https://images.unsplash.com/photo-1693970837564-e721b4efc50a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-    <span class="visually-hidden carousel-control glyphicon-chevron-left left ">left</span>
-  </button>
-  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden carousel-control glyphicon-chevron-right right ">right</span>
-  </button>
-</div>
+<div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+     <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
 
-	
+    <!-- Slides -->
+    <div class="carousel-inner">
+        <div class="item first-slide">First slide</div>
+        <div class="item second-slide">Second slide</div>
+        <div class="item third-slide active">Thired slide</div>
+        <div class="item fourth-slide">Fourth slide</div>
+        <div class="item fifth-slide">Fifth slide</div>
+    </div>
+
+    
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">      
+		<span class="glyphicon glyphicon-chevron-right"></span> 
+    </a>
+</div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 
 </html>
