@@ -18,30 +18,3 @@
     text-align: center;
     min-height: 300px;
 }
-
-/* Style the active slide */
-.carousel-inner .item.active {
-    background-color: #4A4A4A;
-    margin-bottom:100px;
-	jusitfy-content:center;
-}
-
-/* Style the left and right arrow icons */
-.left,
-.right {
-    font-size: 30px;
-    color: black;
-    background-color: #A9A9A9; /* Add a semi-transparent background */
-    width: 30px;
-    height: 50px;
-    border-radius:60%;
-    transform: translateY(290%);
-}
-
-/* Style the arrow icons on hover */
-.left:hover,
-.right:hover {
-    
-    color: #fff;
-    transition: background-color 0.3s, color 0.3s;
-}
